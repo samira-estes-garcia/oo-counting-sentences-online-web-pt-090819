@@ -2,15 +2,8 @@ require 'pry'
 
 class String
 
-  attr_accessor :content 
-  
-  def initialize(content)
-    @content = content
-  end
-
-  def sentence?(string_content)
-    self.content = string_content
-    string_content.end_with?(".")
+  def sentence?
+    
   end
 
   def question?
